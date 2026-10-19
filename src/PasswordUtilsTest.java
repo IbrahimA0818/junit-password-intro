@@ -51,9 +51,9 @@ public class PasswordUtilsTest {
 
     @Test 
     void testcontainsSpecialChars(){
-        String str = "asfafaf*";
+        String str = "asfafaf***";
 
-         int actual = 1;
+         int actual = PasswordUtils.countSpecialCharacters(str);
 
          assertEquals(1, actual);
     }

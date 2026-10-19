@@ -74,8 +74,14 @@ return false;
 public static int countSpecialCharacters(String password) {
 // TODO: Make tests FIRST, then implement the method
 // Please have your tests in a separate commit from the implementation
-
-return 0;
+int specialCharacterCount = 0;
+for(int i = 0; i<password.length(); i++){
+    char c = password.charAt(i);
+    if (!Character.isLetterOrDigit(c)){
+        specialCharacterCount++;
+    }
+}
+return specialCharacterCount;
 }
 
 /**
