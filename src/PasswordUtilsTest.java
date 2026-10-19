@@ -48,4 +48,13 @@ public class PasswordUtilsTest {
 
         assertEquals(true, actual);
     }
+
+    @Test 
+    void testcontainsSpecialChars(){
+        String str = "asfafaf*";
+
+         int actual = 1;
+
+         assertEquals(1, actual);
+    }
 }

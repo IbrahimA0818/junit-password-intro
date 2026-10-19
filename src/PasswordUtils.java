@@ -74,6 +74,7 @@ return false;
 public static int countSpecialCharacters(String password) {
 // TODO: Make tests FIRST, then implement the method
 // Please have your tests in a separate commit from the implementation
+
 return 0;
 }
 
