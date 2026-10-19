@@ -42,7 +42,7 @@ public class PasswordUtilsTest {
 
     @Test
     void testcontainsTriple(){
-        String str = "aaafds";
+        String str = "aafddds";
 
         boolean actual = PasswordUtils.containsTriple(str);
 
