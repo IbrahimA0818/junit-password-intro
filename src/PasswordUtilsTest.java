@@ -39,4 +39,13 @@ public class PasswordUtilsTest {
 
         assertEquals(false, actual);
     }
+
+    @Test
+    void testcontainsTriple(){
+        String str = "aaafds";
+
+        boolean actual = PasswordUtils.containsTriple(str);
+
+        assertEquals(true, actual);
+    }
 }
