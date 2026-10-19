@@ -60,7 +60,7 @@ public class PasswordUtilsTest {
 
     @Test
     void testsufficientSpecialChars(){
-        String str = "asasda";
+        String str = "asasa";
 
         boolean actual = PasswordUtils.hasSufficientSpecialCharacters(str, 1);
 
